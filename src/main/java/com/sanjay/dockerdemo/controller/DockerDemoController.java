@@ -14,7 +14,7 @@ public class DockerDemoController {
 
     @GetMapping
     public List<String> getAllCars(){
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda","Fiat"};
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda","Fiat","Maruthi"};
         return Arrays.asList(cars);
     }
 }
